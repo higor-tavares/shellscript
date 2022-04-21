@@ -12,7 +12,7 @@
 # Equivalente a mascara de rede porem simplificada (quantidade de digitos 1)
 CIDR="/24" 
 # Ipv4 no padrao 192.168.100.30/24 por exemplo, sem imprimir o /24 
-REGEX="[1-9.]*(?=$CIDR)" 
+REGEX="[0-9.]*(?=$CIDR)" 
 
 ###
 # Redireciona o resultado do ip addr para o perl que aplica o regex
